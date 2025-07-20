@@ -40,7 +40,7 @@ export const Application: FC = () => {
                     <div className={bem('Menu', [navbarClass])}>
                         <div className='navbar-nav'>
                             <NavLink className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')} to='/catalog' onClick={hide}>
-                                Catalog
+                                Catalog Bob
                             </NavLink>
                             <NavLink className={({ isActive }) => (isActive ? 'active nav-link' : 'nav-link')} to='/delivery' onClick={hide}>
                                 Delivery
